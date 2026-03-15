@@ -12,6 +12,6 @@ export class ContactDto {
 
   @IsNotEmpty()
   @IsString()
-  @MinLength(10)
+  @MinLength(3)
   message: string;
 }
